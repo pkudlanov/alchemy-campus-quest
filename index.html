@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Do You Have What it Takes to Get Through Alchemy?!</title>
+    <title>Go to School!!</title>
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/index.css">
 </head>
 <body>
     <header>
-        <h1>Yeah I did not get a lot of work done yet for this submission but I do have an excuse. The previous project took an unreasonable amount of time to complete and it's still not quite ready to present to the president. I am working on it though. I did get the idea for this submission and project in general though although its not visivle in this submission yet. It is to come though. Submitting now to not lose the points. Gotta do what you gotta do.</h1>
+        <img src="./assets/brain.jpg" alt="Picture of brain on a circuit board background.">
+        <h1>Low on Grey Matter? Go to School!</h1>
     </header>
+
+    <main>
+        <h1>Apply to Alchemy Code Lab</h1>
+        <form>
+            <p>
+                <label for="name">What is your name?</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <fieldset id="title-choice">
+                <legend>Choose Your Title</legend>
+                <p id="title">
+                    <label for="teacher">Teacher</label>
+                    <input type="radio" name="title" id="teacher">
+                    
+                    <label for="student">Student</label>
+                    <input type="radio" name="title" id="student">
+
+                    <label for="TA">TA</label>
+                    <input type="radio" name="title" id="TA">
+
+                    <label for="laptop">Inexperienced Users Laptop</label>
+                    <input type="radio" name="title" id="laptop">
+                </p>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

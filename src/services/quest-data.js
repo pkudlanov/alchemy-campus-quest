@@ -61,11 +61,11 @@ const Kitchen = {
     }]
 }
 
-const megansOffice = {
-    id:,
-    title:,
+const shannonsOffice = {
+    id: 'shannonsOffice',
+    title: 'Shannons Office',
     image:,
-    description:,
+    description: ,
     choices: [{
         id:,
         description:,

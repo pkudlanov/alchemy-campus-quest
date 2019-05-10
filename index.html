@@ -19,22 +19,22 @@
         <form id="user-sign-up">
             <p>
                 <label for="name">What is your name?</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
             </p>
             <fieldset id="title-choice">
                 <legend>Choose Your Title</legend>
                 <p id="title">
                     <label for="teacher">Teacher</label>
-                    <input type="radio" name="title" id="teacher">
+                    <input type="radio" name="title" id="teacher" required>
                     
                     <label for="student">Student</label>
-                    <input type="radio" name="title" id="student">
+                    <input type="radio" name="title" id="student" required>
 
                     <label for="TA">TA</label>
-                    <input type="radio" name="title" id="TA">
+                    <input type="radio" name="title" id="TA" required>
 
                     <label for="laptop">Inexperienced Users Laptop</label>
-                    <input id="last-choice" type="radio" name="title" id="laptop">
+                    <input id="last-choice" type="radio" name="title" id="laptop" required>
                 </p>
             </fieldset>
             <p id="button"><button>Send Your Application</button></p>

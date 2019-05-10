@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/quest.css">
+</head>
+<body>
+    <header class="game-header">
+        <h1>Class Has Begun</h1>
+        <div class="profile">
+            <p>
+                <span id="name"></span>
+                <span id="vl">|</span>
+                <span id="title"></span>
+            </p><p>
+                <span class="stat-label">Grade: </span>
+                <span id="grade"></span>
+                <span>%</span>
+            </p>
+            </p><p>
+                <span class="stat-label">Cups of Coffee: </span>
+                <span id="coffee"></span>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Alchemy Code Lab Classroom</h1>
+        <img src="./assets/classroom.jpg" alt="Alchemy Code Lab main classroom">
+        <form>
+            <fieldset>
+                <legend>What Shall Be Your Plan of Action?</legend>
+                <p>
+                    <input type="radio" name="option" value="investigate" required>
+                    <label for="investigate">You decide to be the good Samaritan and see what is going on</label>
+                </p><p>
+                    <input type="radio" name="option" value="ignore" required>
+                    <label for="ignore">Ignore all the stares and take it like a MAN!!!!</label>
+                </p><p>
+                    <input type="radio" name="option" value="getHelp" required>
+                    <label for="getHelp">Transfer all the attention to your neighbor and ask him to check it out</label>
+                </p>
+            </fieldset>
+            <p id="quest-button"><button>Sooo, Thats Your Answer?</button></p>
+        </form>
+        <a href="./">Home Page</a>
+        <a href="./map.html">Map</a>
+    </main>
+    <script type="module" src="./src/quest/quest.js"></script>
+</body>
+</html>

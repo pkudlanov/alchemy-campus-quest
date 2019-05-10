@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: rgb(233, 239, 255);
+    background-color: rgb(237, 246, 253);
 }
 main{
     max-width: 600px;
@@ -24,4 +24,10 @@ main{
 }
 #vl{
     margin: auto 10px;
+}
+button{
+    margin: 14px;
+    width: 200px;
+    height: 30px;
+    background-image: linear-gradient(rgb(223, 238, 255), rgb(242, 247, 251));
 }

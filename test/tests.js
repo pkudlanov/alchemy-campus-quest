@@ -1,3 +1,8 @@
+import './make-user.test.js';
+import './api.test.js';
+
+
+
 const test = QUnit.test;
 test ('time to test a function', function(assert) {
     //Arrange

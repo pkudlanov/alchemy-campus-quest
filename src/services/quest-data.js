@@ -1,7 +1,7 @@
 const bigClassroom = {
     id: 'bigClassroom',
     title: 'Big Classroom',
-    image: 'image to come',
+    image: 'classroom.jpg',
     description: `
         The class is silent. Everyones eyes are like dagres penetrating
         your inner workings. There's a noise coming from the corner of the
@@ -59,7 +59,7 @@ const bigClassroom = {
 const kitchen = {
     id: kitchen,
     title: 'Kitchen',
-    image: 'image to come',
+    image: 'kitchen.jpg',
     description: `
         Sitting right there in front of you is one big juicy gronola bar. The
         nice and chewy one with a bit of crunch from the almonds. It's been a
@@ -113,7 +113,7 @@ const kitchen = {
 
 const shannonsOffice = {
     id: 'shannonsOffice',
-    title: 'Shannons Office',
+    title: 'shannons-office.jpg',
     image: 'imageToCome',
     description: `
         Sitting silently, you wonder, what your reply shall be. She just spent the

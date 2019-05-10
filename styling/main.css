@@ -1,18 +1,27 @@
 body{
     margin: 0px;
+    background-color: rgb(233, 239, 255);
 }
 main{
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     padding-bottom: 50px;
 }
-header{
+.game-header{
     text-align: center;
-    background-color: rgb(34, 83, 190);
+    margin: 0px;
+    padding: 1px;
+    background-color: rgb(0, 125, 235);
+    color: white;
 }
-header > h1{
-    padding-bottom: 6px;
-    margin: auto;
-    font-size: 2.8em;
-    color: rgb(188, 229, 243);
+.profile{
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 40px;
+}
+.profile > p{
+    margin: 8px;
+}
+#vl{
+    margin: auto 10px;
 }

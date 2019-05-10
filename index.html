@@ -16,7 +16,7 @@
 
     <main>
         <h1>Apply to Alchemy Code Lab</h1>
-        <form>
+        <form id="user-sign-up">
             <p>
                 <label for="name">What is your name?</label>
                 <input type="text" name="name" id="name">
@@ -34,10 +34,14 @@
                     <input type="radio" name="title" id="TA">
 
                     <label for="laptop">Inexperienced Users Laptop</label>
-                    <input type="radio" name="title" id="laptop">
+                    <input id="last-choice" type="radio" name="title" id="laptop">
                 </p>
             </fieldset>
+            <p id="button"><button>Send Your Application</button></p>
+            
         </form>
+        <a href="./map.html">Map</a>
     </main>
+    <script type="module" src="./src/home/index.js"></script>
 </body>
 </html>

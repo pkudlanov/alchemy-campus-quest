@@ -15,3 +15,4 @@ name.textContent = user.name;
 title.textContent = user.title;
 grade.textContent = user.grade;
 coffee.textContent = user.coffee;
+

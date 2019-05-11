@@ -7,8 +7,7 @@ QUnit.module('make user');
 test('create user object from form data', (assert) => {
     // arrange
     const formData = new FormData();
-    // set the values that would be from the form,
-    // remember these are strings!
+
     formData.set('name', 'William');
     formData.set('title', 'Teacher');
 
@@ -19,7 +18,7 @@ test('create user object from form data', (assert) => {
     assert.deepEqual(user, {
         name: 'William',
         title: 'Teacher',
-        grade: 9,
+        grade: 83,
         coffee: 2
     });
 });

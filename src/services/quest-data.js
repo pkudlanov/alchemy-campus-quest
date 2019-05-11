@@ -2,6 +2,7 @@ const bigClassroom = {
     id: 'bigClassroom',
     title: 'Big Classroom',
     image: 'classroom.jpg',
+    imageAlt: 'Alchemy classroom',
     description: `
         The class is silent. Everyones eyes are like dagres penetrating
         your inner workings. There's a noise coming from the corner of the
@@ -60,6 +61,7 @@ const kitchen = {
     id: kitchen,
     title: 'Kitchen',
     image: 'kitchen.jpg',
+    imageAlt: 'Alchemy kitchen',
     description: `
         Sitting right there in front of you is one big juicy gronola bar. The
         nice and chewy one with a bit of crunch from the almonds. It's been a
@@ -115,6 +117,7 @@ const shannonsOffice = {
     id: 'shannonsOffice',
     title: 'shannons-office.jpg',
     image: 'imageToCome',
+    imageAlt: 'Shannons office at Alchemy',
     description: `
         Sitting silently, you wonder, what your reply shall be. She just spent the
         last 11 minutes straight lecturing you about something and everything just

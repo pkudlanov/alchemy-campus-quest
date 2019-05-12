@@ -1,4 +1,4 @@
-const questTestApi = {
+const questApi = {
     createQuestLink(quest){
         const link = document.createElement('a');
         link.classList.add('quest');
@@ -17,6 +17,9 @@ const questTestApi = {
         
         return link;
     }
+    createCompletedTest(){
+
+    }
 };
 
-export default questTestApi;
+export default questApi;

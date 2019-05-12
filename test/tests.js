@@ -1,6 +1,6 @@
 import './make-user.test.js';
 import './api.test.js';
-import './quest-test-api.test.js';
+import './quest-api.test.js';
 
 
 const test = QUnit.test;

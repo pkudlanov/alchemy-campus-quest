@@ -17,8 +17,8 @@ const questApi = {
         
         return link;
     }
-    createCompletedTest(){
-
+    createCompletedQuest(quest){
+        
     }
 };
 

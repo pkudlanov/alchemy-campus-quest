@@ -17,4 +17,6 @@ test ('creates correct html', (assert) => {
     assert.equal(dom.outerHTML, expected);
 });
 
-test ('')
+test ('creates correct html for completed quest', (assert) => {
+
+});

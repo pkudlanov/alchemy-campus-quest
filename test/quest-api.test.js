@@ -16,5 +16,3 @@ test ('creates correct html', (assert) => {
 
     assert.equal(dom.outerHTML, expected);
 });
-
-test ('')

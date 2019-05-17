@@ -17,9 +17,6 @@ const questApi = {
         
         return link;
     }
-    createCompletedTest(){
-
-    }
 };
 
 export default questApi;

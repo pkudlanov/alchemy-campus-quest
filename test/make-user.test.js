@@ -22,3 +22,4 @@ test('create user object from form data', (assert) => {
         coffee: 2
     });
 });
+

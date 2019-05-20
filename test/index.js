@@ -13,3 +13,4 @@ global.localStorage = window.localStorage;
 
 require = require('esm')(module);
 module.exports = require('./tests.js');
+

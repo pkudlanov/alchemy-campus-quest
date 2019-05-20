@@ -1,0 +1,15 @@
+.quest-links-container{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+main{
+    text-align: center;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+}

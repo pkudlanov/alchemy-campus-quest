@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/quest.css">
+</head>
+<body>
+    <header class="game-header">
+        <h1>Class Has Begun</h1>
+        <div class="profile">
+            <p>
+                <span id="name"></span>
+                <span id="vl">|</span>
+                <span id="title"></span>
+            </p><p>
+                <span class="stat-label">Grade: </span>
+                <span id="grade"></span>
+                <span>%</span>
+            </p>
+            </p><p>
+                <span class="stat-label">Cups of Coffee: </span>
+                <span id="coffee"></span>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Alchemy Code Lab Classroom</h1>
+        <img src="./assets/classroom.jpg" alt="Alchemy Code Lab main classroom">
+
+        <form>
+            <fieldset>
+                <legend>What Shall Be Your Plan of Action?</legend>
+                <p>
+                    <input type="radio" name="option" value="investigate" required>
+                    <label for="investigate">You decide to be the good Samaritan and see what is going on</label>
+                </p><p>
+                    <input type="radio" name="option" value="ignore" required>
+                    <label for="ignore">Ignore all the stares and take it like a MAN!!!!</label>
+                </p><p>
+                    <input type="radio" name="option" value="getHelp" required>
+                    <label for="getHelp">Transfer all the attention to your neighbor and ask him to check it out</label>
+                </p>
+            </fieldset>
+            <p id="quest-button"><button>Sooo, Thats Your Answer?</button></p>
+        </form>
+
+        <section class="hidden">
+            <p id="result">
+                Turns out it was the canine earthling, gnawing on the metal
+                leg of the recliner. As you approach to chase away the animal,
+                the animal starts growling. You tell it to leave which makes it
+                even angrier. It lunges at you, and clings on to your right
+                pointer finger. You spill your coffee. All the school faculty is
+                angry at you for agitating the thing. After a very serious board
+                meeting it is decided the school will be better off without you.
+                Your career is ruined because you don't have an education and
+                now you can't even type anymore from the finger injury.
+            </p>
+            <h3>
+                Lose 20% on your grade.
+            </h3><h3>
+                Gain 2 cups of coffee.
+            </h3>
+            <button id="map-link">Room Selection</button>
+        </section>
+
+        <a href="./">Home Page</a>
+    </main>
+    <script type="module" src="./src/quest/quest.js"></script>
+</body>
+</html>

@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Do You Have What it Takes to Get Through Alchemy?!</title>
+    <title>Go to School!!</title>
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/index.css">
 </head>
 <body>
-    
+    <header>
+        <img src="./assets/brain.jpg" alt="Picture of brain on a circuit board background.">
+        <h1>Low on Grey Matter? Go to School!</h1>
+    </header>
+
+    <main>
+        <h1>Apply to Alchemy Code Lab</h1>
+        <form id="user-sign-up">
+            <p>
+                <label for="name">What is your name?</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+            <fieldset id="title-choice">
+                <legend>Choose Your Title</legend>
+                <p id="title-group">
+                    <label for="teacher">Teacher</label>
+                    <input type="radio" name="title" id="teacher" value="Teacher" required>
+                    
+                    <label for="student">Student</label>
+                    <input type="radio" name="title" id="student" value="Student" required>
+
+                    <label for="ta">TA</label>
+                    <input type="radio" name="title" id="ta" value="TA" required>
+
+                    <label for="laptop">Inexperienced Users Laptop</label>
+                    <input type="radio" name="title" id="laptop" value="Laptop" required>
+                </p>
+            </fieldset>
+            <p id="button"><button>Send Your Application</button></p>
+            
+        </form>
+        <a href="./map.html">Map</a>
+    </main>
+    <script type="module" src="./src/home/index.js"></script>
 </body>
 </html>

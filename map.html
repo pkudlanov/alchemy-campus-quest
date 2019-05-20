@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/map.css">
 </head>
 <body>
-    
+    <header class="game-header">
+        <h1>Class is About to Commence</h1>
+        <div class="profile">
+            <p>
+                <span id="name"></span>
+                <span id="vl">|</span>
+                <span id="title"></span>
+            </p><p>
+                <span class="stat-label">Grade: </span>
+                <span id="grade"></span>
+                <span>%</span>
+            </p>
+            </p><p>
+                <span class="stat-label">Cups of Coffee: </span>
+                <span id="coffee"></span>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <h2>Which Room Will You Choose?</h2>
+        <p class="quest-links-container">
+                <a href="./quest.html"><img class="overlay" src="./assets/classroom.jpg" alt="Alchemy classroom" width="300px"></a>
+
+                <a href="./quest.html"><img src="./assets/kitchen.jpg" alt="Alchemy kitchen" height="300px"></a>
+
+                <a href="./quest.html"><img src="./assets/shannons-office.jpg" alt="shannons-office at Alchemy" width="300px"></a>
+        </p>
+        <a href="./">Home Page</a>
+    </main>
+
+    <script type="module" src="./src/map/map.js"></script>
 </body>
 </html>
